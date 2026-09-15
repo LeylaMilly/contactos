@@ -420,7 +420,8 @@ nav.main-nav a:hover::after{width:100%;}
 
 /* ---------- TRUST ---------- */
 .trust{
-  background:var(--paper);
+  background:var(--ink);
+  color:var(--paper);
   padding:70px 0;
   border-top:1px solid var(--paper-2);
   border-bottom:1px solid var(--paper-2);
@@ -431,7 +432,7 @@ nav.main-nav a:hover::after{width:100%;}
 .trust-item{text-align:left;}
 .trust-item svg{width:26px; height:26px; color:var(--rust); margin-bottom:14px;}
 .trust-item h4{font-size:0.98rem; margin-bottom:6px; font-weight:600;}
-.trust-item p{font-size:0.85rem; color:var(--muted-on-paper);}
+.trust-item p{font-size:0.85rem; color:var(--paper);}
 
 /* ---------- PRICING ---------- */
 .pricing{
@@ -596,7 +597,8 @@ nav.main-nav a:hover::after{width:100%;}
 /* ---------- FAQ ---------- */
 .faq{
   padding:110px 0 130px;
-  background:var(--paper);
+  background:var(--ink);
+  color:var(--paper);
 }
 .faq-head{max-width:520px; margin-bottom:50px;}
 .faq-head h2{font-size:clamp(1.9rem,3vw,2.5rem); margin-top:14px;}
@@ -607,7 +609,7 @@ nav.main-nav a:hover::after{width:100%;}
 .faq-q{
   width:100%; text-align:left; background:none; border:none; cursor:pointer;
   display:flex; justify-content:space-between; align-items:center; gap:20px;
-  padding:24px 0; font-family:var(--sans); font-size:1.02rem; font-weight:600; color:var(--ink-text);
+  padding:24px 0; font-family:var(--sans); font-size:1.02rem; font-weight:600; color:var(--paper);
 }
 .faq-q .plus{
   flex-shrink:0; width:22px; height:22px; position:relative;
@@ -622,20 +624,20 @@ nav.main-nav a:hover::after{width:100%;}
 .faq-a{
   max-height:0; overflow:hidden; transition:max-height .4s ease;
 }
-.faq-a-inner{padding-bottom:24px; font-size:0.94rem; color:var(--muted-on-paper); width:100%;}
+.faq-a-inner{padding-bottom:24px; font-size:0.94rem; color:var(--paper); width:100%;}
 
 /* ---------- FOOTER ---------- */
 footer{
-  background:var(--ink);
-  color:var(--muted-on-ink);
+  background:var(--paper);
+  color:var(--ink-text);
   padding:60px 0 34px;
 }
 .footer-top{
   display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px;
-  padding-bottom:36px; border-bottom:1px solid rgba(255,255,255,0.1);
+  padding-bottom:36px; border-bottom:1px solid var(--paper-2);
   margin-bottom:26px;
 }
-.footer-logo{display:flex; align-items:center; gap:10px; color:var(--paper);}
+.footer-logo{display:flex; align-items:center; gap:10px; color:var(--ink-text);
 .footer-logo svg{width:24px; height:24px;}
 .footer-cta-line{font-size:0.92rem;}
 .footer-cta-line a{color:var(--brass-light); border-bottom:1px solid var(--brass-light);}
