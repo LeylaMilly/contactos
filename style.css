@@ -430,7 +430,7 @@ nav.main-nav a:hover::after{width:100%;}
   display:grid; grid-template-columns:repeat(4,1fr); gap:30px;
 }
 .trust-item{text-align:left;}
-.trust-item svg{width:26px; height:26px; color:var(--rust); margin-bottom:14px;}
+.trust-item svg{width:26px; height:26px; color:var(--brass-light); margin-bottom:14px;}
 .trust-item h4{font-size:0.98rem; margin-bottom:6px; font-weight:600;}
 .trust-item p{font-size:0.85rem; color:var(--paper);}
 
@@ -638,6 +638,7 @@ footer{
   margin-bottom:26px;
 }
 .footer-logo{display:flex; align-items:center; gap:10px; color:var(--ink-text);
+}
 .footer-logo svg{width:24px; height:24px;}
 .footer-cta-line{font-size:0.92rem;}
 .footer-cta-line a{color:var(--brass-light); border-bottom:1px solid var(--brass-light);}
