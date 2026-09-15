@@ -490,6 +490,7 @@ nav.main-nav a:hover::after{width:100%;}
 .shots{margin-top:10px;}
 .shots-stage{
   position:relative;
+  overflow:hidden;
   height:560px;
   max-width:980px;
   margin:0 auto;
@@ -599,7 +600,7 @@ nav.main-nav a:hover::after{width:100%;}
 }
 .faq-head{max-width:520px; margin-bottom:50px;}
 .faq-head h2{font-size:clamp(1.9rem,3vw,2.5rem); margin-top:14px;}
-.faq-list{max-width:760px;}
+.faq-list{width:100%; max-width:none; margin:auto;}
 .faq-item{
   border-bottom:1px solid var(--paper-2);
 }
@@ -621,7 +622,7 @@ nav.main-nav a:hover::after{width:100%;}
 .faq-a{
   max-height:0; overflow:hidden; transition:max-height .4s ease;
 }
-.faq-a-inner{padding-bottom:24px; font-size:0.94rem; color:var(--muted-on-paper); max-width:64ch;}
+.faq-a-inner{padding-bottom:24px; font-size:0.94rem; color:var(--muted-on-paper); width:100%;}
 
 /* ---------- FOOTER ---------- */
 footer{
