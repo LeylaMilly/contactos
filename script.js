@@ -155,11 +155,9 @@ document.querySelectorAll('.faq-q').forEach(btn => {
   startAutoplay();
 })();
 
-// Add checkout navigation for purchase button
-const buyBtn = document.querySelector('.btn-primary.full');
-if (buyBtn) {
-  buyBtn.addEventListener('click', () => {
-    // Navigate to checkout page
+// Send every purchase action to checkout.
+document.querySelectorAll('[data-checkout]').forEach(button => {
+  button.addEventListener('click', () => {
     location.href = 'https://chavedireta.cursosmoz.shop/checkout';
   });
-}
+});
