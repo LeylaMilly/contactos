@@ -158,6 +158,6 @@ document.querySelectorAll('.faq-q').forEach(btn => {
 // Send every purchase action to checkout.
 document.querySelectorAll('[data-checkout]').forEach(button => {
   button.addEventListener('click', () => {
-    location.href = 'https://chavedireta.cursosmoz.shop/checkout';
+    location.href = 'https://pay.lojou.app/VBqOS';
   });
 });
